@@ -1,0 +1,7 @@
+*.orig
+.DS_Store
+.envrc
+.opencode/
+.gtrconfig
+
+**/.claude/settings.local.json

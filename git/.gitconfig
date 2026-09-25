@@ -1,0 +1,20 @@
+[credential]
+	helper = cache
+[user]
+	name = Max Mayorov
+	email = max.mayorov@live.com
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = code
+[pull]
+	ff = only
+[trim]
+	bases = develop,master,main,prod
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[merge]	tool = vscode
+
+[rerere]
+	enabled = true # Reuse recorded resolutions

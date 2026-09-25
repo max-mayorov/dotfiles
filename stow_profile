@@ -1,0 +1,9 @@
+#!/usr/bin/env zsh
+
+if [[ -z $STOW_FOLDERS ]]; then
+    STOW_FOLDERS="atuin,bat,fzf,ghostty,git,p10k,stow,zsh"
+fi
+
+if [[ -z $DOTFILES ]]; then
+    DOTFILES=$HOME/dotfiles
+fi
