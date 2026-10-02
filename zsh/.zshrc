@@ -47,3 +47,10 @@ eval "$(atuin init zsh)"
 
 eval "$(zoxide init zsh)"
 
+# Eza Aliases
+if command -v eza &> /dev/null; then
+    alias ls='eza --icons=auto --group-directories-first'
+    alias ll='eza -l --icons=auto --group-directories-first --header'
+    alias la='eza -la --icons=auto --group-directories-first'
+    alias lt='eza --tree --icons=auto'
+fi
