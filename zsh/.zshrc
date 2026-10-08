@@ -33,9 +33,6 @@ plug "romkatv/powerlevel10k"
 autoload -Uz compinit
 compinit
 eval "$(fnm completions --shell zsh)"
-if command -v ngrok &>/dev/null; then
-  eval "$(ngrok completion)"
-fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
